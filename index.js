@@ -2,7 +2,7 @@
 //
 
 var onm = require('onm');
-var uuid = requrie('node-uuid');
+var uuid = require('node-uuid');
 
 module.exports = {
 
@@ -18,7 +18,7 @@ module.exports = {
         jsonTag: "SiCImage",
         ____label: "SiC Image Document",
         ____description: "Encapsule Project System in Cloud (SiC) compiled program specification image.",
-        ____docModel: "3e2810a0-4ea5-11e4-b137-080027d17300"
+        ____docModel: "3e2810a0-4ea5-11e4-b137-080027d17300",
         namespaceProperties: {
             userImmutable: {
                 docUuid: {
@@ -34,10 +34,10 @@ module.exports = {
                     fnCreate: function() { onm.util.getEpochTime(); }
                 },
                 revisionTime: {
-                    defaultValue: ''
+                    fnCreate: function() { onm.util.getEpochTime(); }
                 },
                 revisionUuid: {
-                    defaultValue: 
+                    fnCreate: function () { uuid.v4(); }
                 }
 
             }

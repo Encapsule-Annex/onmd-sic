@@ -1,0 +1,23 @@
+{
+  "private", true,
+  "name": "onmd-sic",
+  "version": "0.0.1",
+  "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/test-onmd-sic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChrisRus/onmd-sic.git"
+  },
+  "author": "ChrisRus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisRus/onmd-sic/issues"
+  },
+  "homepage": "https://github.com/ChrisRus/onmd-sic",
+  "dependencies": {
+    "onm": "git://github.com/Encapsule/onm"
+  }
+}

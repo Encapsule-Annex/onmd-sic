@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "onmd-sic",
   "version": "0.0.1",
   "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",

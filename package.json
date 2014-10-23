@@ -1,6 +1,6 @@
 {
   "name": "onmd-sic",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",
   "main": "index.js",
   "scripts": {

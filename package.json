@@ -1,6 +1,6 @@
 {
   "name": "onmd-sic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ChrisRus/onmd-sic",
   "dependencies": {
-    "onm": "git://github.com/Encapsule/onm",
+    "onm": "~0.2.7",
     "node-uuid": "^1.4.1"
   },
   "devDependencies": {

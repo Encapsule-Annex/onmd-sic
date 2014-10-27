@@ -1,6 +1,6 @@
 {
   "name": "onmd-sic",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "mocha": "^1.21.4",
     "grunt-mocha-test": "^0.12.1",
     "grunt-contrib-jshint": "^0.10.0",
-    "onm": "^0.2.5"
+    "onm": "~0.2.8"
   }
 }

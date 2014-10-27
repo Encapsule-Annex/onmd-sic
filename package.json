@@ -1,6 +1,6 @@
 {
   "name": "onmd-sic",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Encapsule Project System in Cloud (SiC) onm data model declaration.",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ChrisRus/onmd-sic.git"
+    "url": "git://github.com/Encapsule/onmd-sic.git"
   },
   "author": "ChrisRus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChrisRus/onmd-sic/issues"
+    "url": "https://github.com/Encapsule/onmd-sic/issues"
   },
-  "homepage": "https://github.com/ChrisRus/onmd-sic",
+  "homepage": "https://github.com/Encapsule/onmd-sic",
   "dependencies": {
-    "onm": "~0.2.7",
-    "node-uuid": "^1.4.1"
+    "node-uuid": "^1.4.1",
+    "onm": "git://github.com/Encapsule/onm"
   },
   "devDependencies": {
     "grunt-contrib-clean": "^0.6.0",
@@ -26,7 +26,6 @@
     "grunt": "^0.4.5",
     "mocha": "^1.21.4",
     "grunt-mocha-test": "^0.12.1",
-    "grunt-contrib-jshint": "^0.10.0",
-    "onm": "~0.2.8"
+    "grunt-contrib-jshint": "^0.10.0"
   }
 }

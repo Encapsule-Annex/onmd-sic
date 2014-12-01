@@ -9,10 +9,8 @@ var chai = require('chai');
 var assert = chai.assert;
 var expect = chai.expect;
 var should = chai.should;
-
 var onm = require('onm');
-var testDataModelDeclaration = require('onm/test/fixture/test-shared-onmd-generic-suite');
-
+var validateDataModelDeclaration = require('onm-data-model-tests').validateDataModelDeclaration;
 var onmdSiC = require('../index');
 
 describe("Load the onmd-sic package.", function() {
@@ -30,6 +28,6 @@ describe("Load the onmd-sic package.", function() {
         assert.property(onmdSiC, 'onmDataModelDeclaration');
     });
 
-    testDataModelDeclaration(onmdSiC.onmDataModelDeclaration);
+    validateDataModelDeclaration(onmdSiC.onmDataModelDeclaration);
 
 });
